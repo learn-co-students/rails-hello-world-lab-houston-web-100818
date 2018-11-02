@@ -568,3 +568,15 @@ Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bd
 
 
 Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2018-11-02 13:54:30 -0500
+
+
+Started GET "/" for ::1 at 2018-11-02 13:57:44 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/borulebaja/.rvm/gems/ruby-2.3.7/gems/railties-4.2.10/lib/rails/templates/rails/welcome/index.html.erb (3.1ms)
+Completed 200 OK in 31ms (Views: 19.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/hello_world" for ::1 at 2018-11-02 13:57:50 -0500
+Processing by StaticController#hello_world as HTML
+  Rendered static/hello_world.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 335ms (Views: 333.5ms | ActiveRecord: 0.0ms)
